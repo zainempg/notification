@@ -55,6 +55,7 @@ dependencies {
 }
 
 publishing {
+
     publications {
         create<MavenPublication>("release") {
             groupId = "com.dubizzle.util"  // Change to your GitHub username
