@@ -73,9 +73,9 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/zainempg/notification")
             credentials {
-                username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
-                password = System.getenv("GITHUB_TOKEN") ?: "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"
-//                password = System.getenv("GITHUB_TOKEN") ?: "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"
+                username = "zainempg"
+//                password = System.getenv("GITHUB_TOKEN") ?: "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"
+                password = "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"
 //                password = System.getenv("GITHUB_TOKEN") ?: "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"
             }
 //            credentials {
