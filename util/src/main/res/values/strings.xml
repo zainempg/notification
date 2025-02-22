@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- time translations -->
+    <string name="str_just_now"> just now </string>
+    <string name="str_hours_ago"> %s hours ago </string>
+    <string name="str_minutes_ago"> %s minutes ago </string>
+    <string name="str_one_hour_ago"> one hour ago </string>
+    <string name="str_days_ago"> %s days ago </string>
+    <string name="str_yesterday"> yesterday </string>
+    <!-- time strings for arabic only -->
+    <string name="str_two_hours_ago"> قبل ساعتين </string>
+    <string name="str_three_to_ten_hours">  قبل %s ساعات  </string>
+    <string name="str_more_than_ten_hours"> قبل %s ساعة </string>
+
+
+
+
+</resources>

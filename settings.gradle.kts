@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Dubizzle Notification"
 include(":app")
+include(":util")
  
