@@ -1,9 +1,8 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-//    id("kotlinx-serialization")
     kotlin("plugin.serialization") version "2.1.10"
-    id("maven-publish") // Add this plugin
+    id("maven-publish")
 
 }
 
@@ -75,7 +74,7 @@ publishing {
 
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
-                password = System.getenv("GITHUB_TOKEN") ?: "your_personal_access_token"
+                password = System.getenv("GITHUB_TOKEN") ?: "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"
             }
         }
     }
