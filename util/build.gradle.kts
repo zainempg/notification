@@ -75,7 +75,8 @@ publishing {
 
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
-                password = System.getenv("GITHUB_TOKEN") ?: "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"
+//                password = System.getenv("GITHUB_TOKEN") ?: "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"
+                password = System.getenv("GITHUB_TOKEN") ?: "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"
             }
         }
     }
