@@ -58,7 +58,7 @@ publishing {
 
     publications {
         create<MavenPublication>("release") {
-            groupId = "com.dubizzle.util"  // Change to your GitHub username
+            groupId = "com.dubizzle"  // Change to your GitHub username
             artifactId = "util"             // Change to your library name
             version = "0.0.1"
 
@@ -71,7 +71,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/zainempg/util") // Change this
+            url = uri("https://maven.pkg.github.com/zainempg/notification") // Change this
 
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
