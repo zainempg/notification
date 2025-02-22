@@ -71,7 +71,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/dubizzle/notification")
+            url = uri("https://maven.pkg.github.com/zainempg/notification")
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
                 password = System.getenv("GITHUB_TOKEN") ?: "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"
