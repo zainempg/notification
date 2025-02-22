@@ -71,7 +71,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/zainempg/notification") // Change this
+            url = uri("https://maven.pkg.github.com/zainempg/dubizzle_util") // Change this
 
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "zainempg"
