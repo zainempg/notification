@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     kotlin("plugin.serialization") version "2.1.10"
     id("maven-publish")
+    id("org.jetbrains.dokka") version "1.8.10" // Add Dokka plugin
 
 }
 
@@ -84,4 +85,8 @@ publishing {
 //            }
         }
     }
+}
+
+tasks.dokkaHtml.configure {
+    outputDirectory.set(buildDir.resolve("dokka"))
 }
